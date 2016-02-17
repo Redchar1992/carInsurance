@@ -1,0 +1,89 @@
+﻿body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div{margin:0;padding:0;border:0;}
+ul,ol{list-style-type:none;}
+select,input,img,select{vertical-align:middle;}
+input{ font-size:12px;}
+a{ text-decoration:none; color:#000;}
+a:hover{color:#c00; text-decoration:none;}
+html {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent; /* For some Androids */
+}
+.clear{clear:both;}
+.fl{float: left;}
+.fr{float: right;}
+.clearfix:after {content: ".";display: block;height: 0pt;clear: both;visibility: hidden;}
+.clearfix {display: inline-block;}
+.clearfix {display: block;}
+img{border: none !important;-webkit-border:none;}
+.css{-webkit-touch-callout: none};
+.tips{color: #783a3a;text-align: center;font-size: 14px;}
+input[type=button], input[type=submit], input[type=file], input[type=tel], button { cursor: pointer; -webkit-appearance: none; outline: none;border: none;}
+input::-ms-input-placeholder{text-align: center;color:#BF87B7 !important;}
+input::-webkit-input-placeholder{text-align: center;color:#BF87B7 !important;}
+input::input-placeholder { text-align: center ;color:#BF87B7 !important;}
+input[placeholder], [placeholder], *[placeholder] { color:#BF87B7 !important; }
+
+body{font-size: 12px;background:#C43D59;width: 100%; overflow-x:hidden;font-family: 'microsoft yahei';}
+
+.bg img{width: 100%;}
+.part2{position: relative;}
+.zhan{width: 100%;height: 25px;}
+
+
+/*tab*/
+/*保单信息*/
+.wrap{margin:0 auto;}
+.tabs{height: 45px;width: 100%;overflow: hidden;/*position: relative;*/}
+.tabs a{
+	display:block;float:left;color:#666;text-align:center;background:#eee;line-height:42px;font-size:16px;
+	text-decoration:none;border-bottom: 3px solid #999;width: 33.33%;
+}
+.tabs a.active{color:#69b7ff;border-bottom: 3px solid #69b7ff;}
+.swiper-container{width: 94%;}
+.swiper-slide{width:100%;background:none;color:#fff;background: #fff;padding: 12px 0;}
+
+.topBar{height: 45px;/*position: absolute;left: 0;*/}
+.xinXi{color: #666;width: 94%;background: #fff;margin-left: 3%;border-collapse:collapse;border:none;font-size: 13px;}
+.xinXi th{font-weight: normal;text-align: right;background: #f5f5f5;border: 1px solid #dadada;padding: 5px 0;padding-right: 5px;width: 35%;}
+.xinXi td{text-align: left;border: 1px solid #dadada;padding: 5px 0;padding-left: 5px;}
+
+/*保单详情*/
+.bdXiangQing{color: #666;width: 94%;background: #fff;margin-left: 3%;border-collapse: collapse;border: none;font-size: 13px;}
+.bdXiangQing th{font-weight: normal;text-align: right;background: #f5f5f5;border: 1px solid #dadada;padding: 5px 0;padding-right: 5px;width: 30%;}
+.bdXiangQing td{text-align: left;border: 1px solid #dadada;padding: 5px 0;padding-left: 5px;}
+.bdXiangQing td.xTitle{background: #bbb;text-align: center;}
+
+/*保险详情*/
+.bnXiangQing{color: #666;width: 94%;background: #fff;margin-left: 3%;border-collapse: collapse;border: none;font-size: 13px;}
+.bnXiangQing th{font-weight: normal;text-align: right;background: #f5f5f5;border: 1px solid #dadada;padding: 5px 0;padding-right: 5px;width: 35%;}
+.bnXiangQing td{text-align: left;border: 1px solid #dadada;padding: 5px 0;padding-left: 5px;}
+.bnXiangQing td.xTitle{background: #bbb;text-align: center;}
+
+
+
+/*查保单*/
+.main{width: 92%;margin: 2%;background: #fff;padding: 0 2% 20px;font-size: 15px;}
+.car{padding: 2% 0;border-bottom: 1px solid #DADADA;}
+.carPic{display: inline-block;width: 95px;}
+.carPic img{width: 100%;}
+.info{display: inline-block;vertical-align: top;margin-left: 5px;}
+.info p{padding: 5px 0;}
+.info .orderNum{color: #666;}
+.info .insurer,.info .statu{color: #999;}
+/*.arrow{display: inline-block;margin: 35px 15px 0 0;width: 12px;height: 20px;background: url(../images/arrow.png) no-repeat;background-size: 12px;}*/
+.arrow a{display: inline-block;margin: 35px 15px 0 0;width: 12px;height: 20px;background: url(../images/arrow.png) no-repeat;background-size: 12px;}
+
+
+@media screen and (min-width: 360px){
+}
+@media screen and (max-width: 320px){
+	.main{font-size: 13px;}
+	.carPic{width: 80px;}
+	.info p{padding: 4px 0;}
+	.arrow a{margin: 27px 15px 0 0;}
+	.bnXiangQing th{width: 38%;}
+}
+@media screen and (min-width: 412px){
+}
+@media screen and (min-width: 421px){
+}

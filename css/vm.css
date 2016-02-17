@@ -1,0 +1,57 @@
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div{margin:0;padding:0;border:0;}
+ul,ol{list-style-type:none;}
+select,input,img,select{vertical-align:middle;}
+input{ font-size:12px;}
+a{ text-decoration:none; color:#000;}
+a:hover{color:#c00; text-decoration:none;}
+html {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent; /* For some Androids */
+}
+.clear{clear:both;}
+.fl{float: left;}
+.fr{float: right;}
+.clearfix:after {content: ".";display: block;height: 0pt;clear: both;visibility: hidden;}
+.clearfix {display: inline-block;}
+.clearfix {display: block;}
+img{border: none !important;-webkit-border:none;}
+.css{-webkit-touch-callout: none};
+.tips{color: #783a3a;text-align: center;font-size: 14px;}
+input[type=button], input[type=submit], input[type=file], input[type=tel], button { cursor: pointer; -webkit-appearance: none; outline: none;border: none;}
+
+
+body{
+	font-size: 12px;background: #ddd;width: 100%; overflow-x:hidden;font-family: 'microsoft yahei';
+	position: relative;
+}
+/*主页*/
+.main{width: 92%;margin: 2%;background: #fff;padding: 0 2%;font-size: 15px;}
+.car{padding: 2% 0;border-bottom: 1px solid #DADADA;}
+.carPic{display: inline-block;width: 122px;}
+.carPic img{width: 100%;}
+.info{display: inline-block;vertical-align: top;margin-left: 5px;}
+.info p{padding: 5px 0;}
+.info span{margin-left: 8px;color: #666464;}
+.bind{display: inline-block;background: #7ba4e0;color: #fff;padding: 3px 15px;border-radius: 12px;margin-top: 32px;}
+.addCar{padding: 10px 0;}
+.addCar input{color: #fff;background: #7ba4e0;padding: 12px 0;width: 100%;border: none;font-size: 16px;}
+
+
+@media screen and (min-width: 360px){
+	/*主页*/
+	.carPic{width: 120px;}
+	.info{margin-left: 4px;}
+	.bind{padding: 3px 12px;}
+}
+@media screen and (max-width: 320px){
+	/*主页*/
+	.main{font-size: 13px;}
+	.carPic{width: 100px;}
+	.info p{padding: 4px 0;}
+	.bind{margin-top: 26px;padding: 3px 12px;}
+	.addCar input{font-size: 14px;}
+}
+@media screen and (min-width: 412px){
+}
+@media screen and (min-width: 421px){
+}
