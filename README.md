@@ -1,3 +1,2 @@
 # carInsurance
-常规项目；
-checkPolicyGai.html为瀑布流。
+移动端常规
